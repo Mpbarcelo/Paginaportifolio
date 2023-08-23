@@ -1,19 +1,19 @@
 <?php
-
-    $nome = addcslashes($_POST['nome']);
-    $email = addcslashes($_POST['email']);
-    $celular = addcslashes($_POST['celular']);
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    $nome = addslashes($_POST['nome']);
+    $email = addslashes($_POST['email']);
+    $celular = addslashes($_POST['celular']);
 
     $para = "marciatrevinho@gmail.com";
-    $assunto = "contato sobre portifólio";
-    $corpo = "Nome: ".$nome."\n"."E-mail: ".$email."\n"."Celular".$celular;
+    $assunto = "Contato sobre portfólio";
+    $corpo = "Nome: " . $nome . "\n" . "E-mail: " . $email . "\n" . "Celular: " . $celular;
 
-    $cabeca = "Fron: marcia-333@hotmail.com"."\n"."Reply-to: ".$email."\n"."X=Mailer:PHP/".phpversion();
+    $cabecalho = "From: marcia-333@hotmail.com" . "\n" . "Reply-To: " . $email . "\n" . "X-Mailer: PHP/" . phpversion();
 
-    if(mail($para,$assunto,$corpo,$cabeca)){
-        echo("E-mail enviado com sucesso!");
-    }else{
-        echo("Houve um erro ao enviar o email!");
+    if (mail($para, $assunto, $corpo, $cabecalho)) {
+        echo "E-mail enviado com sucesso!";
+    } else {
+        echo "Houve um erro ao enviar o email!";
     }
-
+}
 ?>
