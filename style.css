@@ -1,0 +1,455 @@
+/* Estilo geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 80em;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+
+}
+
+
+.logo-icon {
+    width: 65px;
+    height: 65px;
+}
+
+.btn-contato button {
+    padding: 0.625em 2.5em;
+    font-size: 1.125em;
+    font-weight: 600;
+    background-color: #00ff08;
+    border: 0;
+    border-radius: 1.875em;
+    cursor: pointer;
+    transition: .2s;
+}
+
+h2.titulo {
+    color: #fff;
+    font-size: 2.375em;
+    text-align: center;
+}
+
+h2.titulo span {
+    color: #00ff08;
+}
+
+button:hover,
+form .btn-enviar input:hover {
+    box-shadow: 0 0 0.5em #00ff08;
+    transform: scale(1.05);
+}
+
+
+/* Estilo do cabeçalho */
+header {
+    padding: 2.5em 4%;
+}
+
+header>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover {
+    color: #fff;
+    transform: scale(1.05);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 2.5em;
+}
+
+/* Estilo do topo do site */
+.topo-do-site .img-topo-site .img {
+    width: 300px;
+    height: 300px;
+}
+
+section.topo-do-site {
+    padding: 2.5em 4%;
+}
+
+section.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 5.625em;
+}
+
+.topo-do-site h1 {
+    color: #fff;
+    font-size: 2.625em;
+
+}
+
+.topo-do-site .txt-topo-site h1 span {
+    color: #00ff08;
+    font-size: 2.5em;
+}
+
+.topo-do-site .txt-topo-site p {
+    color: #fff;
+    margin: 1.0em 0;
+}
+
+.topo-do-site .txt-topo-site span {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    line-height: 0.3125em;
+}
+
+.topo-do-site .img-topo-site img {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: 1.875em;
+    }
+}
+
+/* Estilo das especialidades */
+section.especialidades {
+    padding: 2.5em 4%;
+}
+
+section.especialidades .flex {
+    gap: 3.75em;
+}
+
+.especialidades .especialidades-box {
+    color: #fff;
+    padding: 2.5em;
+    border-radius: 1.25em;
+    margin-top: 2.8125em;
+    transition: .2s;
+}
+
+.especialidades .especialidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 1.25em #ffffff78;
+}
+
+.especialidades .especialidades-box i {
+    font-size: 4.375em;
+    color: #00ff08;
+}
+
+.especialidades .especialidades-box h3 {
+    font-size: 1.75em;
+    margin: 0.9375em 0;
+}
+
+/* Estilo do sobre */
+section.sobre {
+    padding: 5em 4%;
+}
+
+.img-sobre-avatar {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+
+}
+
+section.sobre .flex {
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre {
+    color: #fff;
+}
+
+.sobre .txt-sobre h2 {
+    font-size: 2.5em;
+    line-height: 1.0em;
+    padding-left: 20px;
+    margin-bottom: 1.25em;
+}
+
+.sobre .txt-sobre h2 span {
+    color: #00ff08;
+    display: block;
+}
+
+.sobre .txt-sobre p {
+    margin: 1.25em;
+    text-align: justify;
+}
+
+.btn-social button {
+    width: 3.75em;
+    height: 3.75em;
+    border-radius: 50%;
+    border: none;
+    background-color: #00ff08;
+    font-size: 20px;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 0.3125em;
+    transform: .2s;
+}
+
+/* Estilo do portifólio */
+section.portifolio {
+    padding: 5em 4%;
+    box-shadow: 0 0 2.5em 0.625em #ffffff1d;
+}
+
+section.portifolio .flex {
+    justify-content: space-around;
+    margin-top: 3.75em;
+}
+
+.img-port {
+    width: 22.5em;
+    height: 28.75em;
+    background-color: #00ff08;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 8s;
+    cursor: pointer;
+    border-radius: 2.5em;
+    position: relative;
+}
+
+.img-port:hover {
+    background-position: 100% 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000b8;
+    border-radius: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.0em;
+    font-weight: 600;
+    color: #fff;
+    opacity: 0;
+    transition: .5s;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+/* Estilo do formulário de contato */
+section.formulario {
+    padding: 5em 4%;
+}
+
+form {
+    max-width: 31.25em;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.625em;
+    margin-top: 2.5em;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    background-color: #242424;
+    border: 0;
+    outline: 0;
+    padding: 1.25em 0.9375em;
+    border-radius: 0.9375em;
+    color: #fff;
+    font-size: 1.125em;
+}
+
+form input::placeholder {
+    color: #00ff08;
+}
+
+form textarea,
+::placeholder {
+    resize: none;
+    max-height: 12.5em;
+    color: #00ff08;
+}
+
+form .btn-enviar {
+    margin-top: 1.25em;
+    text-align: center;
+}
+
+form .btn-enviar input {
+    width: 7.5em;
+    background-color: #00ff08;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+}
+
+/* Estilo do rodapé */
+footer {
+    padding: 2.5em 4%;
+    box-shadow: 0 0 2.5em 0.625em #ffffff1d;
+}
+
+footer .flex {
+    justify-content: space-between;
+}
+
+.line-footer {
+    padding: 1.25em 0;
+
+}
+
+.borda {
+    border-bottom: 2px solid #00ff08;
+}
+
+footer .line-footer p i {
+    color: #00ff08;
+    font-size: 1.5em;
+}
+
+footer .line-footer p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* trabalhando a responsividade */
+@media screen and (max-width: 63.75em) {
+
+    /* Classes gerais */
+    .flex {
+        flex-direction: column-reverse;
+    }
+
+    h2.titulo {
+        font-size: 34px;
+        line-height: 30px;
+    }
+
+
+    /* Cabeçalho */
+    .menu-desktop,
+    .btn-contato {
+        display: none;
+    }
+
+    /* Topo do site */
+    section.topo-do-site .flex {
+        gap: 2.5em;
+    }
+
+    section.topo-do-site {
+        padding: 1.25em 8%;
+    }
+
+    .topo-do-site h1 {
+        font-size: 1.875em;
+
+    }
+
+    .img-sobre-avatar {
+        width: 18.75em;
+        height: 18.75em;
+        border-radius: 50%;
+        flex-direction: column-reverse;
+
+    }
+
+    /* Estilo das especialidades */
+    section.especialidades {
+        padding: 2.5em 8%;
+    }
+
+    /* Estilos do sobre */
+    section.sobre {
+        padding: 5em 8%;
+    }
+
+    .sobre .txt-sobre h2 {
+        font-size: 2.125em;
+        line-height: 1.0em;
+        text-align: center;
+    }
+
+    .btn-social {
+        text-align: center;
+
+    }
+
+    /* Estilo do topo do site */
+    .topo-do-site .txt-topo-site h1 span {
+        color: #00ff08;
+        font-size: 1.25em;
+    }
+
+    /* Estilo do portifólio */
+    section.portifolio {
+        padding: 5em 8%;
+
+    }
+
+    .img-port {
+        width: 100%;
+        max-width: 22.5em;
+        margin: 0 auto;
+    }
+
+    section.portifolio .flex {
+        gap: 3.75em;
+    }
+    /* Estilo do formulário */
+    section.formulario {
+        padding: 5em 8%;
+    }
+    /* Estilo do rodapé */
+    footer .flex {
+       flex-direction: column;
+       gap: 1.875em;
+    }
+
+    footer .line-footer {
+        text-align: center;
+    
+    }    
+
+}
