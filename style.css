@@ -263,9 +263,13 @@ section.portifolio .flex {
     justify-content: center;
     font-size: 1.0em;
     font-weight: 600;
-    color: #fff;
     opacity: 0;
     transition: .5s;
+}
+
+.overlay a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .overlay:hover {
@@ -437,19 +441,21 @@ footer .line-footer p a {
     section.portifolio .flex {
         gap: 3.75em;
     }
+
     /* Estilo do formulário */
     section.formulario {
         padding: 5em 8%;
     }
+
     /* Estilo do rodapé */
     footer .flex {
-       flex-direction: column;
-       gap: 1.875em;
+        flex-direction: column;
+        gap: 1.875em;
     }
 
     footer .line-footer {
         text-align: center;
-    
-    }    
+
+    }
 
 }
