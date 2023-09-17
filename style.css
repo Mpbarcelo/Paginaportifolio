@@ -39,12 +39,30 @@ body {
 }
 
 h2.titulo {
+    margin-bottom: 1.25em;
+    margin-top: 1.25em;
     color: #fff;
     font-size: 2.375em;
     text-align: center;
 }
 
 h2.titulo span {
+    color: #00ff08;
+}
+.txt{
+    margin-bottom: 1.5em;
+    text-align: justify;
+    color: #fff;
+    font-size: 1.15em;
+}
+h4.titulo2 {
+    margin-bottom: 1.25em;
+    color: #fff;
+    font-size: 1.75em;
+    text-align: center;
+}
+
+h4.titulo2 span {
     color: #00ff08;
 }
 
@@ -210,6 +228,9 @@ section.topo-do-site .flex {
 }
 
 /* Estilo das especialidades */
+#especialidades {
+    margin-top: 12.0rem;
+}
 section.especialidades {
     padding: 2.5em 4%;
 }
@@ -222,7 +243,7 @@ section.especialidades .flex {
     color: #fff;
     padding: 2.5em;
     border-radius: 1.25em;
-    margin-top: 2.8125em;
+    margin-top: 3.75em;
     transition: .2s;
 }
 
