@@ -21,27 +21,33 @@ const celularInput = document.querySelector("#celular");
 const mensagemTextarea = document.querySelector("#mensagem");
 
 form.addEventListener("submit", (event) => {
-  //event.preventDefault();
-  console.log(nameInput.value);
-  //verifica se o nome está vazio
-  if (nameInput.value === "") {
+  event.preventDefault(); // Evita o envio padrão do formulário
+
+  // Verifica se o nome está vazio
+  if (nameInput.value.trim() === "") {
     alert("Por favor, digite seu nome!");
     return;
   }
-  if (emailInput.value === "") {
+
+  // Verifica se o email está vazio
+  if (emailInput.value.trim() === "") {
     alert("Por favor, digite seu email!");
     return;
   }
-  if (celularInput.value === "") {
+
+  // Verifica se o telefone está vazio
+  if (celularInput.value.trim() === "") {
     alert("Por favor, digite seu telefone!");
     return;
   }
-  if (mensagemTextarea.value === "") {
+
+  // Verifica se a mensagem está vazia
+  if (mensagemTextarea.value.trim() === "") {
     alert("Por favor, deixe uma mensagem!");
     return;
   }
 
-  //se todos os campos estiverem preenchidos envie o form
+  // Se todos os campos estiverem preenchidos, envie o formulário
   form.submit();
   alert("Mensagem enviada com sucesso!");
 });
