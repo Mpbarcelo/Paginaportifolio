@@ -20,9 +20,24 @@ body {
   display: flex;
 }
 
+.profile-icon {
+  border-radius: 20px;
+  transform-origin: 0 0;
+  animation: profile-entrance ease-in 500ms;
+}
+
 .logo-icon {
   width: 65px;
   height: 65px;
+}
+
+@keyframes profile-entrance {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
 }
 
 .btn-contato button {
@@ -48,6 +63,7 @@ h2.titulo span {
   color: #00ff08;
 }
 .txt {
+  flex-wrap: wrap;
   margin-bottom: 1.5em;
   text-align: justify;
   color: #fff;
@@ -184,8 +200,10 @@ header nav.menu-desktop ul li {
 }
 
 section.topo-do-site {
-  margin-top: 152px;
   padding: 2.5em 4%;
+}
+.projetos-container {
+  padding-top: 152px;
 }
 
 section.topo-do-site .flex {
@@ -197,6 +215,9 @@ section.topo-do-site .flex {
 .topo-do-site h1 {
   color: #fff;
   font-size: 2.625em;
+}
+.txt-topo-site{
+  margin-bottom: 100px;
 }
 
 .topo-do-site .txt-topo-site h1 span {
@@ -324,6 +345,7 @@ section.portifolio {
 }
 
 section.portifolio .flex {
+  align-items: flex-start;
   justify-content: space-around;
   margin-top: 3.75em;
 }
@@ -341,7 +363,16 @@ section.portifolio .flex {
 }
 
 .img-port:hover {
-  background-position: 100% 100%;
+  background-position: 100%;
+}
+.overlay-txt p {
+  font-size: 1em;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  color: #fff;
 }
 
 .overlay {

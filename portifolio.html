@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Marcia" />
     <meta
       name="description"
@@ -12,6 +12,7 @@
       name="keywords"
       content="html5, css3, JavaScript, Portfólio, tecnologia, informação"
     />
+    <link rel="shortcut icon" href="img/icons-m.png" type="image/x-icon" />
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -30,550 +31,1018 @@
 
     <script src="menu.js" defer></script>
     <title>Meu Portfólio</title>
-</head>
-<body>
-  <header>
-    <div class="interface">
-      <div class="logo">
-        <a href="#">
-          <img src="img/icons-m.png" alt="Logo M" class="logo-icon" />
-          <img src="img/Animation.gif" alt="Logo M" class="logo-icon" />
-        </a>
-      </div>
-      <!-- logo  -->
-      <nav class="menu-desktop">
-        <ul>
-          <li><a href="index.html">Início</a></li>
-          <li><a href="#especialidades">Especialidades</a></li>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="portifolio.html">Projetos</a></li>
-        </ul>
-      </nav>
-      <div class="btn-contato">
-        <a href="mailto:marcia-333@hotmail.com">
-          <button>Contato</button>
-        </a>
-      </div>
-      <!--btn-contato-->
-      <div class="btn-abrir-menu" id="btn-menu">
-        <i class="bi bi-list"></i>
-      </div>
-      <div class="menu-mobile" id="menu-mobile">
-        <div class="btn-fechar">
-          <i class="bi bi-x-lg"></i>
+  </head>
+  <body>
+    <header>
+      <div class="interface">
+        <div class="logo">
+          <a href="#">
+            <img src="img/icons-m.png" alt="Logo M" class="logo-icon" />
+            <img
+              src="img/developer.png"
+              alt="Logo M"
+              class="logo-icon profile-icon"
+            />
+          </a>
         </div>
-        <!--btn-fechar-->
-        <nav>
+        <!-- logo  -->
+        <nav class="menu-desktop">
           <ul>
             <li><a href="index.html">Início</a></li>
             <li><a href="#especialidades">Especialidades</a></li>
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="portifolio.html">Projetos</a></li>
-            <li><a href="mailto:marcia-333@hotmail.com">Contato</a></li>
+            <li>
+              <a href="img/ifto-fic.pdf" target="_blank"
+                >Baixar Currículo PDF</a
+              >
+            </li>
           </ul>
         </nav>
+        <div class="btn-contato">
+          <a href="mailto:marcia-333@hotmail.com">
+            <button>Contato</button>
+          </a>
+        </div>
+        <!--btn-contato-->
+        <div class="btn-abrir-menu" id="btn-menu">
+          <i class="bi bi-list"></i>
+        </div>
+        <div class="menu-mobile" id="menu-mobile">
+          <div class="btn-fechar">
+            <i class="bi bi-x-lg"></i>
+          </div>
+          <!--btn-fechar-->
+          <nav>
+            <ul>
+              <li><a href="index.html">Início</a></li>
+              <li><a href="#especialidades">Especialidades</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="portifolio.html">Projetos</a></li>
+              <li><a href="mailto:marcia-333@hotmail.com">Contato</a></li>
+              <li>
+                <a href="img/curriculo.pdf" target="_blank"
+                  >Baixar Currículo PDF</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!--menu-mobile-->
+        <div class="overlay-menu" id="overlay-menu"></div>
       </div>
-      <!--menu-mobile-->
-      <div class="overlay-menu" id="overlay-menu"></div>
-    </div>
-    <!-- interface -->
-  </header>
+      <!-- interface -->
+    </header>
+    <div class="projetos-container">
+      <section id="projetos" class="portifolio topo-do-site">
+        <h2 class="titulo">Meu <span>Portfólio.</span></h2>
+        <div class="interface">
+          <p class="txt">
+            Nesta seção, você encontrará uma seleção cuidadosamente escolhida
+            dos meus projetos, cada um acompanhado de uma descrição detalhada e
+            das linguagens de programação utilizadas. Alguns desses projetos
+            foram desenvolvidos como parte do curso ElasNaTech, enquanto outros
+            surgiram de diferentes cursos que participei. Cada imagem nesta
+            seção é interativa e serve como um portal direto para a página
+            específica de cada projeto, bem como para o repositório
+            correspondente. Sinta-se à vontade para explorar e mergulhar no meu
+            trabalho. Clicando nas imagens abaixo, você poderá conhecer mais
+            sobre cada projeto e minha abordagem criativa e técnica. Espero que
+            aprecie o que encontrará!
+          </p>
+          <h4 class="titulo2">
+            Projetos realizados no curso <span>ElasNaTech!</span>
+          </h4>
+          <div class="flex">
+            <div class="img-port-container">
+              <div
+                class="img-port"
+                style="background-image: url(img/projetoODS4elasnatech.png)"
+              >
+                <div class="overlay">
+                  <a
+                    href="https://mpbarcelo.github.io/projetoODS4elasnatech/"
+                    target="_blank"
+                    >Projeto ODS4 ElasNaTech</a
+                  >
+                  <a
+                    href="https://github.com/Mpbarcelo/projetoODS4elasnatech"
+                    target="_blank"
+                    ><span>Repositório</span></a
+                  >
+                </div>
+              </div>
+              <div class="overlay-txt">
+                <p>
+                  Durante o curso ElasNaTech, eu desenvolvi o Projeto ODS4, um
+                  trabalho que aborda o Objetivo de Desenvolvimento Sustentável
+                  4 - Educação de Qualidade. O trabalho contém video, imagem e
+                  informações importantes relacionadas ao tema. Para concretizar
+                  esse projeto, utilizei as linguagens HTML e CSS. O site possui
+                  um layout responsivo, permitindo seu acesso em uma variedade
+                  de dispositivos.
+                </p>
+              </div>
+            </div>
 
-  <section id="projetos" class="portifolio topo-do-site">
-    <h2 class="titulo">Meu <span>Portfólio.</span></h2>
-    <div class="interface">
-      <p class="txt">Nesta seção, você encontrará uma seleção dos meus projetos, alguns dos quais foram desenvolvidos durante o curso ElasNaTech e outros em cursos diversos. Cada imagem é interativa e funciona como um link direto para a página e para o repositório específico de cada projeto. Explore-os e conheça mais sobre o meu trabalho clicando nas imagens abaixo!</p>
-      <h4 class="titulo2">Projetos realizados no curso <span>ElasNaTech!</span></h4>
-      <div class="flex">
-        <div class="img-port" style="background-image: url(img/ODS4.jpg)">
-          <div class="overlay">
-            <a
-              href="https://mpbarcelo.github.io/projetoODS4elasnatech/"
-              target="_blank"
-              >Projeto ODS4 ElasNaTech</a
-            >
-            <a href="https://github.com/Mpbarcelo/projetoODS4elasnatech" target="_blank"><span>Repositório</span></a>
+            <div class="img-port-container">
+              <div
+                class="img-port"
+                style="background-image: url(img/Cardapioelasnatech.jpg)"
+              >
+                <div class="overlay">
+                  <a
+                    href="https://mpbarcelo.github.io/Cardapioelasnatech/"
+                    target="_blank"
+                    >Projeto Cardápio ElasNaTech - 2023</a
+                  >
+                  <a
+                    href="https://github.com/Mpbarcelo/Cardapioelasnatech"
+                    target="_blank"
+                    ><span>Repositório</span></a
+                  >
+                </div>
+              </div>
+              <div class="overlay-txt">
+                <p>
+                  Como parte do curso ElasNaTech, desenvolvi um cardápio
+                  simples. O projeto inclui o nome e o slogan do
+                  estabelecimento, a lista de produtos com seus respectivos
+                  preços, detalhes sobre a localização e instruções para fazer
+                  um pedido. Para criar esse cardápio, utilizei as linguagens de
+                  programação HTML e CSS, garantindo um design atraente e
+                  funcional. Além disso, o layout responsivo foi cuidadosamente
+                  projetado garantindo o acesso em diferentes tipos de
+                  dispositivos.
+                </p>
+              </div>
+            </div>
+            <div class="img-port-container">
+              <div
+                class="img-port"
+                style="background-image: url(img/HamburgueriaSaborgrelhado.png)"
+              >
+                <div class="overlay">
+                  <a
+                    href="https://mpbarcelo.github.io/HamburgueriaSaborgrelhado/"
+                    target="_blank"
+                    >Projeto site Hamburgueria Sabor Grelhado</a
+                  >
+                  <a
+                    href="https://github.com/Mpbarcelo/HamburgueriaSaborgrelhado"
+                    target="_blank"
+                    ><span>Repositório</span></a
+                  >
+                </div>
+              </div>
+              <div class="overlay-txt">
+                <p>
+                  O Projeto Hamburgueria Sabor Grelhado foi desenvolvido como
+                  parte do portfólio do curso ElasNaTech, utilizando HTML, CSS e
+                  JavaScript. O projeto inclui informações essenciais sobre o
+                  estabelecimento, cardápio detalhado com preços dos produtos e
+                  ainda formulário para realizar o pedido. Além disso, o projeto
+                  tem um layout responsivo, o que significa que pode ser
+                  visualizado em qualquer dispositivo, seja um computador, um
+                  smartphone ou um tablet.
+                </p>
+              </div>
+            </div>
+            <!--flex-->
           </div>
         </div>
-        <div
-          class="img-port"
-          style="background-image: url(img/Cardapioelasnatech.jpg)"
-        >
-          <div class="overlay">
-            <a
-              href="https://mpbarcelo.github.io/Cardapioelasnatech/"
-              target="_blank"
-              >Projeto Cardápio ElasNaTech - 2023</a
+      </section>
+      <section class="portifolio topo-do-site">
+        <div class="interface">
+          <div class="flex">
+            <div class="img-port-container">
+              <div
+                class="img-port"
+                style="background-image: url(img/formulario-cadastro.jpg)"
               >
-              <a href="https://github.com/Mpbarcelo/Cardapioelasnatech" target="_blank"><span>Repositório</span></a>
+                <div class="overlay">
+                  <a
+                    href="https://mpbarcelo.github.io/formulariodecadastro/"
+                    target="_blank"
+                    >Projeto Formulário de cadastro</a
+                  >
+                  <a
+                    href="https://github.com/Mpbarcelo/formulariodecadastro"
+                    target="_blank"
+                    ><span>Repositório</span></a
+                  >
+                </div>
+              </div>
+              <div class="overlay-txt">
+                <p>
+                  A Projeto Formulário de Cadastro utilizando HTML, CSS e
+                  JAVASCRIPT. A página se adapta de maneira eficaz a diferentes
+                  dispositivos, permitindo que os usuários insiram informações
+                  pessoais como nome e email de forma conveniente e amigável. A
+                  responsividade deste formulário garante que ele mantenha sua
+                  usabilidade e estética em qualquer tamanho de tela, desde
+                  smartphones até desktops, proporcionando uma experiência de
+                  usuário consistente e acessível em todos os dispositivos.
+                </p>
+              </div>
+            </div>
+
+            <div class="img-port-container">
+              <div
+                class="img-port"
+                style="background-image: url(img/Geradordesenhanovo.jpg)"
+              >
+                <div class="overlay">
+                  <a
+                    href="https://mpbarcelo.github.io/Geradordesenha/"
+                    target="_blank"
+                    >Projeto Gerador de senhas</a
+                  >
+                  <a
+                    href="https://github.com/Mpbarcelo/Geradordesenha"
+                    target="_blank"
+                    ><span>Repositório</span></a
+                  >
+                </div>
+              </div>
+              <div class="overlay-txt">
+                <p>
+                  O projeto Gerador de Senha em HTML, CSS e JavaScript é uma
+                  aplicação web que permite aos usuários criar senhas seguras de
+                  forma rápida e conveniente. Este projeto é uma ferramenta útil
+                  para qualquer pessoa que precise criar senhas robustas para
+                  suas contas online, melhorando a segurança de suas informações
+                  pessoais. Além disso, demonstra a integração eficaz de HTML,
+                  CSS e JavaScript para criar uma aplicação funcional e
+                  amigável.
+                </p>
+              </div>
+            </div>
+            <div class="img-port-container">
+              <div
+                class="img-port"
+                style="background-image: url(img/curriculo-elasnatech.jpg)"
+              >
+                <div class="overlay">
+                  <a
+                    href="https://mpbarcelo.github.io/Curriculumelasnatech/"
+                    target="_blank"
+                    >Projeto Currículo ElasNaTech</a
+                  >
+                  <a
+                    href="https://github.com/Mpbarcelo/Curriculumelasnatech"
+                    target="_blank"
+                    ><span>Repositório</span></a
+                  >
+                </div>
+              </div>
+              <div class="overlay-txt">
+                <p>
+                  O Projeto Currículo Simples foi uma iniciativa desenvolvida
+                  como parte das atividades do curso "ElasNaTech". Inicialmente,
+                  a linguagem de marcação HTML foi utilizada para criar um
+                  currículo online. Posteriormente, à medida que adquiri
+                  conhecimentos na linguagem CSS, foram feitas melhorias
+                  estilísticas no projeto, tornando o currículo mais atraente
+                  visualmente.
+                </p>
+              </div>
             </div>
           </div>
-          <div
-            class="img-port"
-            style="background-image: url(img/HamburgueriaSaborgrelhado.png)"
-          >
-            <div class="overlay">
+          <!--flex-->
+        </div>
+        <!--interface-->
+      </section>
+      <section class="portifolio topo-do-site">
+        <div class="interface">
+          <div class="flex">
+            <div class="img-port-container">
+              <div
+                class="img-port"
+                style="
+                  background-image: url(img/mulheres-tecnologi-elas-na-tech.png);
+                "
+              >
+                <div class="overlay">
+                  <a
+                    href="
+          https://mpbarcelo.github.io/elasnatech-mulheresdatecnologia/"
+                    target="_blank"
+                    >Projeto Mulheres da Tecnologia ElasNaTech</a
+                  >
+                  <a
+                    href="https://github.com/Mpbarcelo/elasnatech-mulheresdatecnologia"
+                    target="_blank"
+                    ><span>Repositório</span></a
+                  >
+                </div>
+              </div>
+              <div class="overlay-txt">
+                <p>
+                  O "Projeto Mulheres da Tecnologia" foi a primeira atividade
+                  desenvolvida durante o "ElasNaTech", e, nesse estágio inicial
+                  do curso, a página foi criada apenas com a linguagem de
+                  marcação HTML.
+                </p>
+              </div>
+            </div>
+
+            <div class="img-port-container">
+              <div class="img-port" style="background-image: url(img/cubo.jpg)">
+                <div class="overlay">
+                  <a
+                    href="https://mpbarcelo.github.io/cuborotation/"
+                    target="_blank"
+                    >Projeto Cubo rotation</a
+                  >
+                  <a
+                    href="https://github.com/Mpbarcelo/cuborotation"
+                    target="_blank"
+                    ><span>Repositório</span></a
+                  >
+                </div>
+              </div>
+              <div class="overlay-txt">
+                <p>
+                  O "Projeto Cubo Rotate" foi uma atividade desenvolvida durante
+                  o curso "ElasNaTech" com o objetivo de ensinar animações
+                  usando apenas HTML e CSS, uma maneira eficaz de introduzir
+                  conceitos de animação na web
+                </p>
+              </div>
+            </div>
+            <div class="img-port-container">
+              <div
+                class="img-port"
+                style="background-image: url(img/cards.jpg)"
+              >
+                <div class="overlay">
+                  <a href="https://mpbarcelo.github.io/cards/" target="_blank"
+                    >Projeto Cards</a
+                  >
+                  <a href="https://github.com/Mpbarcelo/cards" target="_blank"
+                    ><span>Repositório</span></a
+                  >
+                </div>
+              </div>
+              <div class="overlay-txt">
+                <p>
+                  O projeto página de cards foi criado durante as aulas do curso
+                  ElasNaTech para destacar os principais tópicos e informações
+                  relevantes no curso de Desenvolvedor Web. Esta página utiliza
+                  HTML e CSS para criando uma apresentação atraente.
+                </p>
+              </div>
+            </div>
+
+            <div class="img-port-container"></div>
+          </div>
+          <!--flex-->
+        </div>
+        <!--interface-->
+      </section>
+
+      <!--portifolio-->
+      <section class="portifolio topo-do-site">
+        <div class="interface">
+          <div class="flex">
+            <div class="img-port-container">
+              <div
+                class="img-port"
+                style="background-image: url(img/calculadoradeimc.jpg)"
+              >
+                <div class="overlay">
+                  <a
+                    href="https://mpbarcelo.github.io/calculadoradeimc/"
+                    target="_blank"
+                    >Projeto Calculadora de IMC</a
+                  >
+                  <a
+                    href="https://github.com/Mpbarcelo/calculadoradeimc"
+                    target="_blank"
+                    ><span>Repositório</span></a
+                  >
+                </div>
+              </div>
+              <div class="overlay-txt">
+                <p>
+                  O projeto Calculadora de IMC foi criado para compor o
+                  portfólio, ele é uma ferramenta interativa que ajuda os
+                  usuários a calcular seu Índice de Massa Corporal de forma
+                  rápida e fácil. Este projeto foi criado com HTML, CSS e
+                  JavaScript para fornecer uma experiência responsiva em todos
+                  os dispositivos, desde desktops até smartphones.
+                </p>
+              </div>
+            </div>
+            <div class="img-port-container">
+              <div
+                class="img-port"
+                style="background-image: url(img/modora.png)"
+              >
+                <div class="overlay">
+                  <a href="https://mpbarcelo.github.io/modaora/" target="_blank"
+                    >Projeto Moda Ora</a
+                  >
+                  <a href="https://github.com/Mpbarcelo/modaora" target="_blank"
+                    ><span>Repositório</span></a
+                  >
+                </div>
+              </div>
+              <div class="overlay-txt">
+                <p>
+                  O "Projeto Moda Ora" foi desenvolvido durante as aulas do
+                  curso "ElasNaTech" e envolveu a criação de um projeto
+                  relacionado à moda usando HTML e CSS.
+                </p>
+              </div>
+            </div>
+            <div class="img-port-container">
+              <div
+                class="img-port"
+                style="background-image: url(img/galeria.png)"
+              >
+                <div class="overlay">
+                  <a
+                    href="https://mpbarcelo.github.io/galleriadeimagens/"
+                    target="_blank"
+                    >Projeto Galeria de imagens</a
+                  >
+                  <a
+                    href="https://github.com/Mpbarcelo/galleriadeimagens"
+                    target="_blank"
+                    ><span>Repositório</span></a
+                  >
+                </div>
+              </div>
+              <div class="overlay-txt">
+                <p>
+                  O "Projeto Galeria de Imagens" desenvolvido durante o curso
+                  "ElasNaTech" é uma ótima demonstração de como o HTML e o CSS
+                  podem ser usados para criar uma galeria de imagens com um
+                  layout totalmente responsivo.
+                </p>
+              </div>
+            </div>
+
+            <div class="img-port-container"></div>
+          </div>
+          <!--flex-->
+        </div>
+        <!--interface-->
+      </section>
+
+      <!--portifolio-->
+      <section class="portifolio topo-do-site">
+        <div class="interface">
+          <h4 class="titulo2">
+            Projetos com Bootstrap <span>ElasNaTech.</span>
+          </h4>
+          <div class="flex">
+            <div class="img-port-container">
+              <div
+                class="img-port"
+                style="background-image: url(img/site-bootstrap.jpg)"
+              >
+                <div class="overlay">
+                  <a
+                    href="https://mpbarcelo.github.io/site1bootstrap/"
+                    target="_blank"
+                    >Projeto site Com Bootstrap</a
+                  >
+                  <a
+                    href="https://github.com/Mpbarcelo/site1bootstrap"
+                    target="_blank"
+                    ><span>Repositório</span></a
+                  >
+                </div>
+              </div>
+              <div class="overlay-txt">
+                <p>
+                  Página criada com bootstrap para compor o portfólio do curso
+                  ElasNaTech.O Bootstrap é um dos frameworks mais populares para
+                  desenvolvimento web responsivo e rápido. O site possui
+                  carrossel de imagens, cards com informações e botões para
+                  redes sociais.
+                </p>
+              </div>
+            </div>
+
+            <div class="img-port-container">
+              <div
+                class="img-port"
+                style="background-image: url(img/segundo-site-bootstrap.png)"
+              >
+                <div class="overlay">
+                  <a
+                    href="https://mpbarcelo.github.io/segundo-site-bootstrap/"
+                    target="_blank"
+                    >Projeto Segundo site usando bootstrap</a
+                  >
+                  <a
+                    href="https://github.com/Mpbarcelo/segundo-site-bootstrap"
+                    target="_blank"
+                    ><span>Repositório</span></a
+                  >
+                </div>
+              </div>
+              <div class="overlay-txt">
+                <p>
+                  Segundo projeto com Bootstrap. A página de login desenvolvida
+                  com o Bootstrap, oferece uma experiência de login simples e
+                  direta para os usuários. Após o login bem-sucedido, eles são
+                  direcionados para a página inicial do site que inclui cards
+                  com textos informativos e uma pequena tabela.
+                </p>
+              </div>
+            </div>
+
+            <div class="img-port-container">
+              <div
+                class="img-port"
+                style="background-image: url(img/nikel.jpg)"
+              >
+                <div class="overlay">
+                  <a
+                    href="https://mpbarcelo.github.io/aplicacaonikel/"
+                    target="_blank"
+                    >Projeto Aplicação Nikel</a
+                  >
+                  <a
+                    href="https://github.com/Mpbarcelo/aplicacaonikel"
+                    target="_blank"
+                    ><span>Repositório</span></a
+                  >
+                </div>
+              </div>
+              <div class="overlay-txt">
+                <p>
+                  A aplicação "Nikel" oferece uma experiência completa de
+                  controle financeiro aos usuários, desde a criação de conta até
+                  o gerenciamento de lançamentos de entrada e saída. Esta
+                  aplicação foi desenvolvida utilizando Bootstrap para a
+                  estrutura do front-end, CSS para estilização adicional e
+                  JavaScript para funcionalidades interativas.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--flex-->
+        </div>
+        <!--interface-->
+      </section>
+      <section class="portifolio topo-do-site">
+        <div class="interface">
+          <h4 class="titulo2">Projetos com Python <span>ElasNaTech.</span></h4>
+          <div class="flex">
+            <div class="img-port-container">
+              <div
+                class="img-port"
+                style="background-image: url(img/python-1.jpg)"
+              >
+                <div class="overlay">
+                  <a
+                    href="https://colab.research.google.com/drive/1BLJTeAUe617oslWfElJFd13_aEkPV06q?usp=sharing"
+                    target="_blank"
+                    >Projeto Python - 1</a
+                  >
+                  <a
+                    href="https://github.com/Mpbarcelo/python-primeiroprojeto"
+                    target="_blank"
+                    ><span>Repositório</span></a
+                  >
+                </div>
+              </div>
+              <div class="overlay-txt">
+                <p>
+                  Primeiro projeto em Python, durante o curso "ElasNaTech", tive
+                  a oportunidade de mergulhar no mundo da programação com
+                  Python, uma linguagem versátil e poderosa. Nesse projeto
+                  encontra-se três programas simples, que solicita que o usuário
+                  insira seu nome, outro que exibe mensagem de saudação e por
+                  fim um que exibe o ponto da carne!
+                </p>
+              </div>
+            </div>
+            <div class="img-port-container">
+              <div
+                class="img-port"
+                style="background-image: url(img/python-projeto2.jpg)"
+              >
+                <div class="overlay">
+                  <a
+                    href="https://colab.research.google.com/drive/1fzY45yVYYjSmqrmVbYAk9Nr5quc1LJYI?usp=sharing"
+                    target="_blank"
+                    >Projeto Python - 2</a
+                  >
+                  <a
+                    href="https://github.com/Mpbarcelo/python-segundoprojeto"
+                    target="_blank"
+                    ><span>Repositório</span></a
+                  >
+                </div>
+              </div>
+              <div class="overlay-txt">
+                <p>
+                  Durante o segundo projeto no curso "ElasNaTech", explorei
+                  conceitos mais avançados em Python, desenvolvendo duas
+                  aplicações práticas e fundamentais. O primeiro exibe a lista
+                  de funcionários com determinadas informações e o segundo
+                  calcula a quantidade de tinta necessária para pintar uma
+                  parede.
+                </p>
+              </div>
+            </div>
+            <div class="img-port-container">
+              <div
+                class="img-port"
+                style="background-image: url(img/codigos-python-1.png)"
+              >
+                <div class="overlay">
+                  <a
+                    href="https://colab.research.google.com/drive/1PuHerpNyM_4pB9BnJ_cdBn7KclXJ-wwo?usp=sharing"
+                    target="_blank"
+                    >Projeto de Python - 3</a
+                  >
+                  <a
+                    href="https://github.com/Mpbarcelo/python-terceiroprojeto"
+                    target="_blank"
+                    ><span>Repositório</span></a
+                  >
+                </div>
+              </div>
+              <div class="overlay-txt">
+                <p>
+                  No terceiro projeto do curso "ElasNaTech", mergulhei ainda
+                  mais fundo no Python, explorando o poder e a versatilidade das
+                  listas, uma das estruturas de dados fundamentais na
+                  programação.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--flex-->
+        </div>
+        <!--interface-->
+      </section>
+      <section class="portifolio topo-do-site">
+        <div class="interface">
+          <h4 class="titulo2">
+            Projetos realizados em <span>cursos diversos.</span>
+          </h4>
+          <div class="flex">
+            <div class="img-port-container">
+              <div
+                class="img-port"
+                style="background-image: url(img/relogio.jpg)"
+              >
+                <div class="overlay">
+                  <a
+                    href="https://mpbarcelo.github.io/relogioanalogico/"
+                    target="_blank"
+                    >Projeto Relógio analógico</a
+                  >
+                  <a
+                    href="https://github.com/Mpbarcelo/relogioanalogico"
+                    target="_blank"
+                    ><span>Repositório</span></a
+                  >
+                </div>
+              </div>
+              <div class="overlay-txt">
+                <p>
+                  Ao longo de meu curso de desenvolvedor web, tive a
+                  oportunidade empolgante de trabalhar em diversos projetos
+                  práticos, cada um ensinando algo novo e emocionante. Um desses
+                  projetos notáveis foi a criação de um relógio funcional usando
+                  HTML, CSS e JavaScript. Este projeto não apenas aprimorou
+                  minhas habilidades em programação, mas também demonstrou a
+                  incrível utilidade de combinar várias tecnologias para criar
+                  algo tão essencial em nosso dia a dia.
+                </p>
+              </div>
+            </div>
+            <div class="img-port-container">
+              <div
+                class="img-port"
+                style="background-image: url(img/programaria.png)"
+              >
+                <div class="overlay">
+                  <a
+                    href="https://mpbarcelo.github.io/programaria/"
+                    target="_blank"
+                    >Projeto Mulheres da Tecnologia Programaria</a
+                  >
+                  <a
+                    href="https://github.com/Mpbarcelo/programaria"
+                    target="_blank"
+                    ><span>Repositório</span></a
+                  >
+                </div>
+              </div>
+              <div class="overlay-txt">
+                <p>
+                  O projeto Mulheres da Tecnologia foi um projeto realizado
+                  durante o curso de desenvolvedor web do Programaria. O
+                  objetivo do projeto era criar um site para celebrar as
+                  mulheres que fizeram história na tecnologia. O site foi
+                  desenvolvido utilizando as seguintes tecnologias: HTML: Para
+                  estruturar a página web, CSS: Para estilizar o site e
+                  JavaScript: Para adicionar funcionalidades ao site.
+                </p>
+              </div>
+            </div>
+            <div class="img-port-container">
+              <div
+                class="img-port"
+                style="background-image: url(img/fic-ifto.jpg)"
+              >
+                <div class="overlay">
+                  <a
+                    href="https://mpbarcelo.github.io/curriculocursoficifto/"
+                    target="_blank"
+                    >Projeto currículo FIC - IFTO</a
+                  >
+                  <a
+                    href="https://github.com/Mpbarcelo/curriculocursoficifto"
+                    target="_blank"
+                    ><span>Repositório</span></a
+                  >
+                </div>
+              </div>
+              <div class="overlay-txt">
+                <p>
+                  Um Currículo Dinâmico: Unindo Utilidade e Estilo com HTML e
+                  CSS o projeto currículo desenvolvido durante o curso FIC-IFTO
+                  foi um projeto desafiador e gratificante. O objetivo do
+                  projeto era criar um currículo online que fosse funcional e
+                  agradável de usar. Fui capaz de transformar um simples
+                  documento de texto em uma experiência interativa e visualmente
+                  atraente.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--flex-->
+        </div>
+        <!--interface-->
+      </section>
+      <!--portifolio-->
+      <section class="portifolio topo-do-site">
+        <div class="interface">
+          <div class="flex">
+            <div class="img-port-container">
+              <div
+                class="img-port"
+                style="background-image: url(img/clone.jpg)"
+              >
+                <div class="overlay">
+                  <a
+                    href="https://mpbarcelo.github.io/Clonedoyoutube/"
+                    target="_blank"
+                    >Projeto Clone do YouTube</a
+                  >
+                  <a
+                    href="https://github.com/Mpbarcelo/Clonedoyoutube"
+                    target="_blank"
+                    ><span>Repositório</span></a
+                  >
+                </div>
+              </div>
+              <div class="overlay-txt">
+                <p>
+                  Replicando a Magia do YouTube: Um Projeto Clone. Durante o meu
+                  curso de desenvolvedor web, embarquei em um projeto
+                  emocionante e desafiador: criar um clone funcional do YouTube.
+                  Utilizando as tecnologias básicas da web - HTML e CSS -
+                  mergulhei na arquitetura complexa por trás de uma das
+                  plataformas de vídeo mais populares do mundo.
+                </p>
+              </div>
+            </div>
+            <div class="img-port-container">
+              <div
+                class="img-port"
+                style="background-image: url(img/email-challenge-login.jpg)"
+              >
+                <div class="overlay">
+                  <a
+                    href="https://mpbarcelo.github.io/email-challenge-login/"
+                    target="_blank"
+                    >Projeto E-mail Challeng - EBAC</a
+                  >
+                  <a
+                    href="https://github.com/Mpbarcelo/email-challenge-login"
+                    target="_blank"
+                    ><span>Repositório</span></a
+                  >
+                </div>
+              </div>
+              <div class="overlay-txt">
+                <p>
+                  Uma Página de Login Segura e Funcional: Integração de HTML,
+                  CSS, JavaScript. Em um projeto empolgante e desafiador,
+                  desenvolvi uma página de login totalmente funcional conectada
+                  a um banco de dados utilizando HTML, CSS, JavaScript e
+                  tecnologias de backend. Esta página não é apenas visualmente
+                  atraente, mas também oferece uma experiência de usuário segura
+                  e intuitiva.
+                </p>
+              </div>
+            </div>
+            <div class="img-port-container">
+              <div
+                class="img-port"
+                style="background-image: url(img/projeto-pokedex-pokemon.jpg)"
+              >
+                <div class="overlay">
+                  <a
+                    href="https://mpbarcelo.github.io/projeto-pokedex-pokemon/"
+                    target="_blank"
+                    >Projeto Pokedex - Dev em dobro</a
+                  >
+                  <a
+                    href="https://github.com/Mpbarcelo/projeto-pokedex-pokemon"
+                    target="_blank"
+                    ><span>Repositório</span></a
+                  >
+                </div>
+              </div>
+              <div class="overlay-txt">
+                <p>
+                  Criando uma Pokedex Personalizada: Uma Jornada Interativa com
+                  HTML, CSS e JavaScript. Em um projeto apaixonante, na semana
+                  Devemdobro desenvolvi minha própria Pokedex usando HTML, CSS e
+                  JavaScript para criar uma experiência digital imersiva e
+                  interativa. Minha missão era ir além do simples armazenamento
+                  de informações sobre Pokémons; eu queria criar uma interface
+                  envolvente e atraente que trouxesse essas criaturas para a
+                  vida digital, e esse foi o resultado
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--flex-->
+        </div>
+        <!--interface-->
+      </section>
+      <section class="portifolio topo-do-site">
+        <div class="interface">
+          <div class="flex">
+            <div class="img-port-container">
+              <div
+                class="img-port"
+                style="background-image: url(img/batman.jpg)"
+              >
+                <div class="overlay">
+                  <a
+                    href="https://mpbarcelo.github.io/batmangame/"
+                    target="_blank"
+                    >Projeto Batman game</a
+                  >
+                  <a
+                    href="https://github.com/Mpbarcelo/batmangame"
+                    target="_blank"
+                    ><span>Repositório</span></a
+                  >
+                </div>
+              </div>
+              <div class="overlay-txt">
+                <p>
+                  Criando a Atmosfera do Batman: Protótipo de Página de Jogo em
+                  HTML e CSS. Em um projeto emocionante e criativo, no cuso
+                  FIC_IFTO desenvolvi um protótipo de página de jogo inspirada
+                  no universo do Batman usando HTML e CSS. Meu objetivo era
+                  capturar a atmosfera sombria e misteriosa de Gotham City,
+                  trazendo-a para a vida digital através de design e
+                  interatividade.
+                </p>
+              </div>
+            </div>
+            <div class="img-port-container">
+              <div
+                class="img-port"
+                style="background-image: url(img/baralho.png)"
+              >
+                <div class="overlay">
+                  <a href="https://mpbarcelo.github.io/baralho/" target="_blank"
+                    >Projeto cartas de baralho</a
+                  >
+                  <a href="https://github.com/Mpbarcelo/baralho" target="_blank"
+                    ><span>Repositório</span></a
+                  >
+                </div>
+              </div>
+              <div class="overlay-txt">
+                <p>
+                  Embaralhando Criatividade: Projeto de Cartas de Baralho em
+                  HTML e CSS do FIC_IFTO. Durante o curso FIC_IFTO, embarquei em
+                  um projeto fascinante que me permitiu explorar a magia do
+                  design web e da criatividade: um conjunto de cartas de baralho
+                  desenvolvido exclusivamente com HTML e CSS. Esse desafio não
+                  apenas demonstrou meu entendimento dessas tecnologias
+                  essenciais, mas também me permitiu criar algo visualmente
+                  atraente e funcional.
+                </p>
+              </div>
+            </div>
+            <div class="img-port-container">
+              <div
+                class="img-port"
+                style="background-image: url(img/bandeira.jpg)"
+              >
+                <div class="overlay">
+                  <a
+                    href="https://mpbarcelo.github.io/animacao-bandeira/"
+                    target="_blank"
+                    >Projeto animação bandeira</a
+                  >
+                  <a
+                    href="https://github.com/Mpbarcelo/animacao-bandeira"
+                    target="_blank"
+                    ><span>Repositório</span></a
+                  >
+                </div>
+              </div>
+              <div class="overlay-txt">
+                <p>
+                  O Orgulho Brasileiro em Movimento: Animação da Bandeira do
+                  Brasil com HTML e CSS no Curso FIC_IFTO. Durante meu curso no
+                  FIC_IFTO, mergulhei em um projeto empolgante que me permitiu
+                  exibir meu orgulho pelo Brasil de uma forma dinâmica e
+                  criativa: uma animação da bandeira brasileira desenvolvida
+                  exclusivamente com HTML e CSS. Esta tarefa não apenas testou
+                  minha compreensão dessas tecnologias, mas também me deu a
+                  oportunidade de criar uma representação visual dinâmica e
+                  impactante da nossa pátria.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--flex-->
+        </div>
+        <!--interface-->
+      </section>
+    </div>
+    <footer class="creditos">
+      <p>
+        Projeto inspirado no trabalho de
+        <a href="https://www.instagram.com/brunorodris/">@brunorodris/</a>
+        <a
+          href="https://www.youtube.com/playlist?list=PLaLQ4gJXUd6DP5n1t8r4rwF40ahLgUlMg"
+        >
+          Canal Inteliogia - Dev's Insights</a
+        >
+      </p>
+    </footer>
+    <footer>
+      <div class="interface">
+        <div class="line-footer borda">
+          <div class="flex">
+            <div class="logo-footer">
+              <img src="img/icons-m.png" alt="Logo M" class="logo-icon" />
+              <img
+                src="img/developer.png"
+                alt="Logo M"
+                class="logo-icon profile-icon"
+              />
+            </div>
+            <!--logo-footer-->
+            <div class="btn-social">
               <a
-                href="https://mpbarcelo.github.io/HamburgueriaSaborgrelhado/"
+                href="https://www.instagram.com/marciapbarcelo/"
                 target="_blank"
-                >Projeto site Hamburgueria Sabor Grelhado</a
-              >
-              <a href="https://github.com/Mpbarcelo/HamburgueriaSaborgrelhado" target="_blank"><span>Repositório</span></a>
+                ><button><i class="bi bi-instagram"></i></button
+              ></a>
+              <a
+                href="https://www.youtube.com/@MarciaPintoBarcelo1/"
+                target="_blank"
+                ><button><i class="bi bi-youtube"></i></button
+              ></a>
+              <a href="https://www.linkedin.com/in/mpbarcelo/" target="_blank"
+                ><button><i class="bi bi-linkedin"></i></button
+              ></a>
+              <a href="https://github.com/Mpbarcelo" target="_blank"
+                ><button><i class="bi bi-github"></i></button
+              ></a>
+              <a href="https://wa.me/5563992117499" target="_blank"
+                ><button><i class="bi bi-whatsapp"></i></button
+              ></a>
             </div>
+            <!--btn-social-->
+          </div>
+          <!--flex-->
+        </div>
+        <!--line-footer-->
+        <div class="line-footer">
+          <p>
+            <i class="bi bi-envelope-fill"></i>
+            <a href="mailto:marcia-333@hotmail.com">marcia-333@hotmail.com</a>
+          </p>
+        </div>
+        <!--line-footer-->
       </div>
-      <!--flex-->
-    </div>
-    <!--interface-->
-  </section>
-  <section class="portifolio">
-    <div class="interface">
-      <div class="flex">
-        <div
-          class="img-port"
-          style="background-image: url(img/formulario-cadastro.jpg)"
-        >
-          <div class="overlay">
-            <a
-              href="https://mpbarcelo.github.io/formulariodecadastro/"
-              target="_blank"
-              >Projeto Formulário de cadastro</a
-            >
-            <a href="https://github.com/Mpbarcelo/formulariodecadastro" target="_blank"><span>Repositório</span></a>
-          </div>
-        </div>
-        <div
-          class="img-port"
-          style="background-image: url(img/Geradordesenhanovo.jpg)"
-        >
-          <div class="overlay">
-            <a
-              href="https://mpbarcelo.github.io/Geradordesenha/"
-              target="_blank"
-              >Projeto Gerador de senhas</a
-            >
-            <a href="https://github.com/Mpbarcelo/Geradordesenha" 
-              target="_blank"><span>Repositório</span></a>
-          </div>
-        </div>
-        <div
-          class="img-port"
-          style="background-image: url(img/curriculo-elasnatech.jpg)"
-        >
-          <div class="overlay">
-            <a
-              href="https://mpbarcelo.github.io/Curriculumelasnatech/"
-              target="_blank"
-              >Projeto Currículo ElasNaTech</a
-            >
-            <a href="https://github.com/Mpbarcelo/Curriculumelasnatech" target="_blank"><span>Repositório</span></a>
-          </div>
-        </div>
-      </div>
-      <!--flex-->
-    </div>
-    <!--interface-->
-  </section>
-  <section class="portifolio">
-    <div class="interface">
-      <div class="flex">
-        <div
-          class="img-port"
-          style="background-image: url(img/mulheres-tecnologi-elas-na-tech.png)"
-        >
-          <div class="overlay">
-            <a
-            href="
-            https://mpbarcelo.github.io/elasnatech-mulheresdatecnologia/"
-            target="_blank"
-              >Projeto Mulheres da Tecnologia ElasNaTech</a
-            > 
-            <a href="https://github.com/Mpbarcelo/elasnatech-mulheresdatecnologia" target="_blank"><span>Repositório</span></a>
-          </div>
-        </div>
-        <div
-          class="img-port"
-          style="background-image: url(img/cubo.jpg)"
-        >
-          <div class="overlay">
-            <a
-              href="https://mpbarcelo.github.io/cuborotation/"
-              target="_blank"
-              >Projeto Cubo rotation</a
-            >
-            <a href="https://github.com/Mpbarcelo/cuborotation"
-             target="_blank"><span>Repositório</span></a>
-          </div>
-        </div>
-        <div
-          class="img-port"
-          style="background-image: url(img/cards.jpg)"
-        >
-          <div class="overlay">
-            <a
-              href="https://mpbarcelo.github.io/cards/"
-              target="_blank"
-              >Projeto Cards</a
-            >
-            <a href="https://github.com/Mpbarcelo/cards" target="_blank"><span>Repositório</span></a>
-          </div>
-        </div>
-      </div>
-      <!--flex-->
-    </div>
-    <!--interface-->
-  </section>
-  </section>
-  <!--portifolio-->
-  <section class="portifolio">
-    <div class="interface">
-      <div class="flex">
-        <div
-          class="img-port"
-          style="background-image: url(img/calculadoradeimc.jpg)"
-        >
-          <div class="overlay">
-            <a
-              href="https://mpbarcelo.github.io/calculadoradeimc/"
-              target="_blank"
-              >Projeto Calculadora de IMC</a
-            > 
-            <a href="https://github.com/Mpbarcelo/calculadoradeimc"
-             target="_blank"><span>Repositório</span></a>
-          </div>
-        </div>
-        <div
-          class="img-port"
-          style="background-image: url(img/modora.png)"
-        >
-          <div class="overlay">
-            <a
-              href="https://mpbarcelo.github.io/modaora/"
-              target="_blank"
-              >Projeto Moda Ora</a
-            >
-            <a href="https://github.com/Mpbarcelo/modaora"
-             target="_blank"><span>Repositório</span></a>
-          </div>
-        </div>
-        <div
-          class="img-port"
-          style="background-image: url(img/galeria.png)"
-        >
-          <div class="overlay">
-            <a
-              href="https://mpbarcelo.github.io/galleriadeimagens/"
-              target="_blank"
-              >Projeto Galeria de imagens</a
-            >
-            <a href="https://github.com/Mpbarcelo/galleriadeimagens" target="_blank"><span>Repositório</span></a>
-          </div>
-        </div>
-      </div>
-      <!--flex-->
-    </div>
-    <!--interface-->
-  </section>
-  </section>
-  
-  <!--portifolio-->
-  <section class="portifolio">
-    <div class="interface">
-      <h4 class="titulo2">Projetos com Bootstrap <span>ElasNaTech.</span></h4>
-      <div class="flex">
-        <div
-          class="img-port"
-          style="background-image: url(img/site-bootstrap.jpg)"
-        >
-          <div class="overlay">
-            <a
-              href="https://mpbarcelo.github.io/site1bootstrap/"
-              target="_blank"
-              >Projeto site Com Bootstrap</a
-            >
-            <a href="https://github.com/Mpbarcelo/site1bootstrap" 
-            target="_blank"><span>Repositório</span></a>
-          </div>
-        </div>
-        <div
-          class="img-port"
-          style="background-image: url(img/segundo-site-bootstrap.png)"
-        >
-          <div class="overlay">
-            <a
-              href="https://mpbarcelo.github.io/segundo-site-bootstrap/"
-              target="_blank"
-              >Projeto Segundo site usando bootstrap</a
-            >
-            <a href="https://github.com/Mpbarcelo/segundo-site-bootstrap" target="_blank"><span>Repositório</span></a>
-          </div>
-        </div>
-        <div
-          class="img-port"
-          style="background-image: url(img/nikel.jpg)"
-        >
-          <div class="overlay">
-            <a
-              href="https://mpbarcelo.github.io/aplicacaonikel/"
-              target="_blank"
-              >Projeto Aplicação Nikel</a
-            >
-            <a href="https://github.com/Mpbarcelo/aplicacaonikel" target="_blank"><span>Repositório</span></a>
-          </div>
-        </div>
-      </div>
-      <!--flex-->
-    </div>
-    <!--interface-->
-  </section>
-  <section class="portifolio">
-    <div class="interface">
-      <h4 class="titulo2">Projetos com Python <span>ElasNaTech.</span></h4>
-      <div class="flex">
-        <div
-          class="img-port"
-          style="background-image: url(img/python-1.jpg)"
-        >
-          <div class="overlay">
-            <a
-              href="https://colab.research.google.com/drive/1BLJTeAUe617oslWfElJFd13_aEkPV06q?usp=sharing"
-              target="_blank"
-              >Projeto Python - 1</a
-            >
-            <a href="https://github.com/Mpbarcelo/python-primeiroprojeto" target="_blank"><span>Repositório</span></a>
-          </div>
-        </div>
-        <div
-          class="img-port"
-          style="background-image: url(img/python-projeto2.jpg)"
-        >
-          <div class="overlay">
-            <a
-              href="https://colab.research.google.com/drive/1fzY45yVYYjSmqrmVbYAk9Nr5quc1LJYI?usp=sharing"
-              target="_blank"
-              >Projeto Python - 2</a
-            >
-            <a href="https://github.com/Mpbarcelo/python-segundoprojeto" target="_blank"><span>Repositório</span></a>
-          </div>
-        </div>
-        <div
-          class="img-port"
-          style="background-image: url(img/codigos-python-1.png)"
-        >
-          <div class="overlay">
-            <a
-              href="https://colab.research.google.com/drive/1PuHerpNyM_4pB9BnJ_cdBn7KclXJ-wwo?usp=sharing"
-              target="_blank"
-              >Projeto de Python - 3</a
-            >
-            <a href="https://github.com/Mpbarcelo/python-terceiroprojeto" target="_blank"><span>Repositório</span></a>
-          </div>
-        </div>
-      </div>
-      <!--flex-->
-    </div>
-    <!--interface-->
-  </section>
-  <section class="portifolio">
-    <div class="interface">
-      <h4 class="titulo2">Projetos realizados em <span>cursos diversos.</span></h4>
-      <div class="flex">
-        <div
-          class="img-port"
-          style="background-image: url(img/relogio.jpg)"
-        >
-          <div class="overlay">
-            <a
-              href="https://mpbarcelo.github.io/relogioanalogico/"
-              target="_blank"
-              >Projeto Relógio analógico</a
-            >
-            <a href="https://github.com/Mpbarcelo/relogioanalogico" 
-              target="_blank"><span>Repositório</span></a>
-          </div>
-        </div>
-        <div
-          class="img-port"
-          style="background-image: url(img/programaria.png)"
-        >
-          <div class="overlay">
-            <a
-              href="https://mpbarcelo.github.io/programaria/"
-              target="_blank"
-
-              >Projeto Mulheres da Tecnologia Programaria</a
-            >
-            <a href="https://github.com/Mpbarcelo/programaria" 
-            target="_blank"><span>Repositório</span></a>
-          </div>
-        </div>
-        <div
-          class="img-port"
-          style="background-image: url(img/curriculocursoficift.jpg)"
-        >
-          <div class="overlay">
-            <a
-              href="https://mpbarcelo.github.io/curriculocursoficifto/"
-              target="_blank"
-              >Projeto currículo FIC - IFTO</a
-            >
-            <a href="https://github.com/Mpbarcelo/curriculocursoficifto" target="_blank"><span>Repositório</span></a>
-          </div>
-        </div>
-      </div>
-      <!--flex-->
-    </div>
-    <!--interface-->
-  </section>
-  <!--portifolio-->
-  <section class="portifolio">
-    <div class="interface">
-      <div class="flex">
-        
-  <div
-  class="img-port"
-  style="background-image: url(img/clone.jpg)"
->
-  <div class="overlay">
-    <a
-      href="https://mpbarcelo.github.io/Clonedoyoutube/"
-      target="_blank"
-      >Projeto Clone do YouTube</a
-    >
-    <a href="https://github.com/Mpbarcelo/Clonedoyoutube" 
-      target="_blank"><span>Repositório</span></a>
-  </div>
-</div>
-<div
-  class="img-port"
-  style="background-image: url(img/email-challenge-login.jpg)"
->
-  <div class="overlay">
-    <a
-      href="https://mpbarcelo.github.io/email-challenge-login/"
-      target="_blank"
-      >Projeto E-mail Challeng - EBAC</a
-    >
-    <a href="https://github.com/Mpbarcelo/email-challenge-login"
-     target="_blank"><span>Repositório</span></a>
-  </div>
-</div>
-<div
-  class="img-port"
-  style="background-image: url(img/projeto-pokedex-pokemon.jpg)"
->
-  <div class="overlay">
-    <a
-      href="https://mpbarcelo.github.io/projeto-pokedex-pokemon/"
-      target="_blank"
-      >Projeto Pokedex - Dev em dobro</a
-    >
-    <a href="https://github.com/Mpbarcelo/projeto-pokedex-pokemon" 
-      target="_blank"><span>Repositório</span></a>
-  </div>
-</div>
-      </div>
-      <!--flex-->
-    </div>
-    <!--interface-->
-  </section>
-  <section class="portifolio">
-    <div class="interface">
-      
-      <div class="flex">
-        <div
-          class="img-port"
-          style="background-image: url(img/batman.jpg)"
-        >
-          <div class="overlay">
-            <a
-              href="https://mpbarcelo.github.io/batmangame/"
-              target="_blank"
-              >Projeto Batman game</a
-            >
-            <a href="https://github.com/Mpbarcelo/batmangame" 
-              target="_blank"><span>Repositório</span></a>
-          </div>
-        </div>
-        <div
-          class="img-port"
-          style="background-image: url(img/baralho.png)"
-        >
-          <div class="overlay">
-            <a
-              href="https://mpbarcelo.github.io/baralho/"
-              target="_blank"
-
-              >Projeto cartas de baralho</a
-            >
-            <a href="https://github.com/Mpbarcelo/baralho" 
-            target="_blank"><span>Repositório</span></a>
-          </div>
-        </div>
-        <div
-          class="img-port"
-          style="background-image: url(img/bandeira.jpg)"
-        >
-          <div class="overlay">
-            <a
-              href="https://mpbarcelo.github.io/animacao-bandeira/"
-              target="_blank"
-              >Projeto animação bandeira</a
-            >
-            <a href="https://github.com/Mpbarcelo/animacao-bandeira"
-		          target="_blank"><span>Repositório</span></a>
-          </div>
-        </div>
-      </div>
-      <!--flex-->
-    </div>
-    <!--interface-->
-  </section>
-  <footer class="creditos">
-    <p>Projeto inspirado no trabalho de <a href="https://www.instagram.com/brunorodris/">@brunorodris/</a>
-      <a href="https://www.youtube.com/playlist?list=PLaLQ4gJXUd6DP5n1t8r4rwF40ahLgUlMg"> Canal Inteliogia - Dev's Insights</a>
-    </p>
-  </footer>
-  <footer>
-    <div class="interface">
-      <div class="line-footer borda">
-        <div class="flex">
-          <div class="logo-footer">
-            <img src="img/icons-m.png" alt="Logo M" class="logo-icon" />
-            <img src="img/Animation.gif" alt="Logo M" class="logo-icon" />
-          </div>
-          <!--logo-footer-->
-          <div class="btn-social">
-            <a
-              href="https://www.instagram.com/marciapbarcelo/"
-              target="_blank"
-              ><button><i class="bi bi-instagram"></i></button
-            ></a>
-            <a
-              href="https://www.youtube.com/@MarciaPintoBarcelo1/"
-              target="_blank"
-              ><button><i class="bi bi-youtube"></i></button
-            ></a>
-            <a href="https://www.linkedin.com/in/mpbarcelo/" target="_blank"
-              ><button><i class="bi bi-linkedin"></i></button
-            ></a>
-            <a href="https://github.com/Mpbarcelo/Mpbarcelo" target="_blank"
-              ><button><i class="bi bi-github"></i></button
-            ></a>
-          </div>
-          <!--btn-social-->
-        </div>
-        <!--flex-->
-      </div>
-      <!--line-footer-->
-      <div class="line-footer">
-        <p>
-          <i class="bi bi-envelope-fill"></i>
-          <a href="mailto:marcia-333@hotmail.com">marcia-333@hotmail.com</a>
-        </p>
-      </div>
-      <!--line-footer-->
-    </div>
-    <!--interface-->
-  </footer>
-</body>
+      <!--interface-->
+    </footer>
+  </body>
 </html>
