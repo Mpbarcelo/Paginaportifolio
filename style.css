@@ -217,7 +217,6 @@ section.topo-do-site .flex {
   font-size: 2.625em;
 }
 
-
 .topo-do-site .txt-topo-site h1 span {
   color: #00ff08;
   font-size: 2.5em;
@@ -277,6 +276,7 @@ section.especialidades .flex {
 }
 
 .especialidades .especialidades-box i {
+  align-items: center;
   font-size: 4.375em;
   color: #00ff08;
 }
@@ -285,7 +285,9 @@ section.especialidades .flex {
   font-size: 1.75em;
   margin: 0.9375em 0;
 }
-
+.especialidades p {
+  text-align: justify;
+}
 /* Estilo do sobre */
 section.sobre {
   padding: 5em 4%;
@@ -303,6 +305,7 @@ section.sobre .flex {
 }
 
 .sobre .txt-sobre {
+  text-align: justify;
   color: #fff;
 }
 
