@@ -27,7 +27,7 @@ Você pode entrar em contato comigo através do meu e-mail: [marcia-333@hotmail.
 1. Clone este repositório:
 
     ```bash
-    git clone https://github.com/seu-usuario/seu-portfolio.git
+    git clone https://mpbarcelo.github.io/Paginaportifolio/portifolio.html
     ```
 
 2. Abra o arquivo `index.html` em seu navegador.
