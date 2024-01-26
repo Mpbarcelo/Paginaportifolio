@@ -4,7 +4,7 @@ Bem-vindo ao meu portfólio! Aqui, você encontrará informações sobre mim, me
 
 ## Sobre Mim
 
-Olá! Eu sou a [Marcia], uma entusiasta desenvolvedora web dedicada a aprimorar minhas habilidades na criação de soluções excepcionais. Este portfólio representa uma vitrine do meu trabalho e das competências que venho desenvolvendo ao longo do tempo.
+Olá! Eu sou a Marcia, uma entusiasta desenvolvedora web dedicada a aprimorar minhas habilidades na criação de soluções excepcionais. Este portfólio representa uma vitrine do meu trabalho e das competências que venho desenvolvendo ao longo do tempo.
 
 ## Projetos
 
