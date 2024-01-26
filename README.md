@@ -1,4 +1,4 @@
-# Portfólio de [Marcia Barcelo]
+# Portfólio de Marcia Barcelo
 
 Bem-vindo ao meu portfólio! Aqui, você encontrará informações sobre mim, meus projetos e como entrar em contato.
 
