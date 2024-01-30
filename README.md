@@ -1,5 +1,13 @@
 # Portfólio de Marcia Barcelo
 
+![Página inicial](img/perfil.png)
+
+![Formulário](img/formulario.png)
+
+![Previa dos projetos](img/projetos-previa.png)
+
+
+
 Bem-vindo ao meu portfólio! Aqui, você encontrará informações sobre mim, meus projetos e como entrar em contato.
 
 ## Sobre Mim
