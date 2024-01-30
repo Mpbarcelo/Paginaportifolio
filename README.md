@@ -32,6 +32,4 @@ Você pode entrar em contato comigo através do meu e-mail: [marcia-333@hotmail.
 
 2. Abra o arquivo `index.html` em seu navegador.
 
-## Licença
 
-Este projeto é licenciado sob a [Licença MIT](LICENSE).
